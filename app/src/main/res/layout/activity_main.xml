@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--Button to perform clicking event
+        to change background images-->
+    <Button
+        android:id="@+id/Button"
+        android:layout_width="150dp"
+        android:layout_height="52dp"
+        android:layout_margin="12dp"
+        android:background="#0F9D58"
+        android:text="Click Here"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
